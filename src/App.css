@@ -1,0 +1,295 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* Header */
+.header {
+    background-image: url(./resources/map.png);
+    color: #fff;
+    padding: 2rem;
+  }
+  h2,
+  h1 {
+    font-family: 'Roboto';
+    margin-bottom: .5rem;
+    margin-top: 0;
+  }
+  h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 37.2px;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 46.8px;
+  }
+  .header p{
+    font-family: 'Roboto';
+    font-size: 1rem;
+    line-height: 12px;
+    margin-top: 1.5rem;
+  }
+  .modal {
+    margin-top: 1rem;
+    height: 6rem;
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 1rem;
+  }
+  .search {
+    width: 80%;
+  }
+  .search input{
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  .searchbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: .5rem 1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid green;
+  }
+  .filter{
+    color: #092a12;
+    font-size: 2rem;
+  }
+  /* Main */
+  main h3{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+}
+.houses{
+  background-color: #f9f9fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 90%;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+img{
+    width: 20rem;
+    height: 12rem;
+    border-radius: .5rem;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.about h2{
+    text-align: center;
+}
+/* Navbar  */
+a {
+    text-decoration: none;
+    color: green;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+  }
+  .navlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .primary,
+  .secondary {
+    width: 5rem;
+    height: 1.5rem;
+    padding: 0.5rem;
+    border: 2px solid green;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  .secondary {
+    background-color: #092a12;
+    color: #fff;
+  }
+  /* Registration Page  */
+  .signup{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.contbox, .agentbox{
+    width: 80%;
+    padding: 5rem;
+    box-sizing: border-box;
+    border: 1px solid green;
+    border-radius: .5rem;
+}
+.contbox h2{
+    margin-bottom: 4rem;
+    text-align: center;
+    color: green;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+button{
+    background-color: green;
+    color: #fff;
+    border: 1px solid green;
+}
+.regOp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* verification */
+.verif{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.verbox{
+    width: 80%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+ gap: 1rem;
+    box-sizing: border-box;
+    border: 1px solid green;
+    border-radius: .5rem;
+}
+.verbox h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    color: green;
+}
+
+input, button{
+    padding: 1rem;
+    margin-top: .5rem;
+    border: 1px solid green;
+    border-radius: .2rem;
+}
+button{
+    background-color: green;
+    color: #fff;
+    border: 1px solid green;
+}
+/* Reset Password */
+.cancel{
+    text-align: center;
+    color: green;
+    margin-top: .1rem;
+}
+/* Agent Registration */
+.agent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.agentbox h2{
+    margin: 1rem;
+    text-align: center;
+    color: green;
+}
+/* TESTIMONUIALS */
+.mySwiper {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+.mySwiper img{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+  padding: .5rem;
+  width: 90%;
+  height: 100%;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+/* house details */
+.hd{
+}
+.agentCont{
+}
+.comment{
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.comment textarea{
+  width: 95%;
+  border-radius: .5rem;
+  border: 1px solid green;
+  padding: 1rem;
+  margin: auto;
+}
+.comment button{
+  margin-left: auto;
+  width: 10rem;
+  border-radius: .3rem;
+}
+.reviews{
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.reviews img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
